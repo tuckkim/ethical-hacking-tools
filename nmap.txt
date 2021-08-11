@@ -1,0 +1,15 @@
+https://www.stationx.net/nmap-cheat-sheet/
+cd /usr/share/nmap/scripts  =>
+git clone https://github.com/vulnersCom/nmap-vulners.git
+
+
+nmap -A <target>
+    => not stealthy
+perl nikto.ph -h <target>
+OpenVAS
+
+nmap -p <ports> <target>
+nmap -sS <target>
+
+nmap -p 1-65535 192.168.1.90
+nikto -h 192.168.1.90
